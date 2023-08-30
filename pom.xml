@@ -3,4 +3,13 @@
   <groupId>patient_intelli_project</groupId>
   <artifactId>patient_intelli_project</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <build>
+    <plugins>
+        <plugin>
+            <groupId>com.google.appengine</groupId>
+            <artifactId>appengine-maven-plugin</artifactId>
+            <version>1.9.9</version>
+        </plugin>
+    </plugins>
+</build>
 </project>
